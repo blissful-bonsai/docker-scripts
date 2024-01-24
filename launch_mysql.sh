@@ -1,5 +1,6 @@
 #!/bin/bash
-
+# Run a while loop to check whether or not the container already exists.
+# Do the same when creating a option for the network
 read -p "Please insert your mysql-container name: " container_name;
 read -p "Please insert your root password: " root_password;
 read -p "Please insert the name of the database: " database_name;
